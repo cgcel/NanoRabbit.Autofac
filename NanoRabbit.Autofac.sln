@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{9BCFBAD3-3C7F-4FBF-A86A-918920E810AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Example", "Example", "{5692E3F6-201C-490A-BD7D-DD6DE9C09B6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{2B5069AA-358D-498E-BFC9-05D7B0886A75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example.Autofac", "Example\Example.Autofac\Example.Autofac.csproj", "{798EF8AD-66C9-4689-AA2F-BCA23322E7B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NanoRabbit.Autofac", "Src\NanoRabbit.Autofac\NanoRabbit.Autofac.csproj", "{DFE1469B-9546-424B-AEEA-8EB054D9AB3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{798EF8AD-66C9-4689-AA2F-BCA23322E7B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{798EF8AD-66C9-4689-AA2F-BCA23322E7B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{798EF8AD-66C9-4689-AA2F-BCA23322E7B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{798EF8AD-66C9-4689-AA2F-BCA23322E7B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE1469B-9546-424B-AEEA-8EB054D9AB3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE1469B-9546-424B-AEEA-8EB054D9AB3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE1469B-9546-424B-AEEA-8EB054D9AB3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE1469B-9546-424B-AEEA-8EB054D9AB3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5692E3F6-201C-490A-BD7D-DD6DE9C09B6C} = {9BCFBAD3-3C7F-4FBF-A86A-918920E810AB}
+		{2B5069AA-358D-498E-BFC9-05D7B0886A75} = {9BCFBAD3-3C7F-4FBF-A86A-918920E810AB}
+		{798EF8AD-66C9-4689-AA2F-BCA23322E7B3} = {5692E3F6-201C-490A-BD7D-DD6DE9C09B6C}
+		{DFE1469B-9546-424B-AEEA-8EB054D9AB3D} = {2B5069AA-358D-498E-BFC9-05D7B0886A75}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AED3A2D8-1B8E-4506-8977-25960721DA63}
+	EndGlobalSection
+EndGlobal
